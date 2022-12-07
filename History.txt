@@ -1,0 +1,11 @@
+Windows CE VNC viewer history
+=============================
+
+3.3.2 Initial Release
+---------------------
+Quick port from Win32 version.  Fairly crude replacement of C++ exceptions with SEH - 
+may well be problems with certain destructors not being called..
+
+Doesn't support palettes yet.
+
+Should be changed to only request update area displayed.
